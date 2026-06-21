@@ -146,6 +146,27 @@ function ContactPage({ onHome }: { onHome: () => void }) {
 
       {/* Footer */}
       <footer className="mt-auto pb-10 text-center" style={{ fontFamily: "'Inter', sans-serif" }}>
+        <div className="flex items-center justify-center gap-5 mb-4">
+          <a href="https://www.instagram.com/vigxiivisuals?igsh=OTY0YWVmNjlrbXFj" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-black/40 hover:text-black transition-colors duration-200">
+            <Instagram size={18} strokeWidth={1.75} />
+          </a>
+          <a href="tel:+918591126687" aria-label="Phone" className="text-black/40 hover:text-black transition-colors duration-200">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </a>
+          <a href="https://wa.me/918591126687" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="text-black/40 hover:text-black transition-colors duration-200">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+          </a>
+          <a href="mailto:walunjvigxii@gmail.com" aria-label="Email" className="text-black/40 hover:text-black transition-colors duration-200">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+        </div>
         <p className="text-[8px] tracking-[0.5em] text-black uppercase">
           VIGXII Visuals Co. by Vighnesh Walunj © 2026
         </p>
@@ -194,12 +215,12 @@ function SiteHeader({
       </button>
 
       {/* Tagline */}
-      <p className="text-[8px] tracking-[0.3em] text-black/30 uppercase mb-5" style={{ fontFamily: "'Inter', sans-serif" }}>
+      <p className="text-[8px] tracking-[0.3em] text-black/30 uppercase mb-5 text-center" style={{ fontFamily: "'Inter', sans-serif" }}>
         Visual Storytelling&nbsp;&nbsp;·&nbsp;&nbsp;Cinematic Excellence&nbsp;&nbsp;·&nbsp;&nbsp;Creative Direction
       </p>
 
       {/* Nav links */}
-      <nav className="flex items-center gap-8 mb-4">
+      <nav className="flex items-center gap-8">
         <button
           onClick={onWorkClick}
           className="text-[10px] tracking-[0.4em] text-black/55 uppercase transition-colors duration-200 hover:text-black focus:outline-none"
@@ -214,49 +235,6 @@ function SiteHeader({
           Contact
         </button>
       </nav>
-
-      {/* Social icons */}
-      <div className="flex items-center gap-5">
-        <a
-          href="https://www.instagram.com/vigxiivisuals?igsh=OTY0YWVmNjlrbXFj"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Instagram"
-          className="text-black/40 hover:text-black transition-colors duration-200"
-        >
-          <Instagram size={18} strokeWidth={1.75} />
-        </a>
-        <a
-          href="tel:+918591126687"
-          aria-label="Phone"
-          className="text-black/40 hover:text-black transition-colors duration-200"
-        >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-          </svg>
-        </a>
-        <a
-          href="https://wa.me/918591126687"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="WhatsApp"
-          className="text-black/40 hover:text-black transition-colors duration-200"
-        >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
-          </svg>
-        </a>
-        <a
-          href="mailto:walunjvigxii@gmail.com"
-          aria-label="Email"
-          className="text-black/40 hover:text-black transition-colors duration-200"
-        >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-            <polyline points="22,6 12,13 2,6"></polyline>
-          </svg>
-        </a>
-      </div>
     </header>
   );
 }
@@ -361,6 +339,27 @@ function HomePage({
         >
           Back to Top
         </button>
+        <div className="flex items-center justify-center gap-5 mb-4">
+          <a href="https://www.instagram.com/vigxiivisuals?igsh=OTY0YWVmNjlrbXFj" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-black/40 hover:text-black transition-colors duration-200">
+            <Instagram size={18} strokeWidth={1.75} />
+          </a>
+          <a href="tel:+918591126687" aria-label="Phone" className="text-black/40 hover:text-black transition-colors duration-200">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </a>
+          <a href="https://wa.me/918591126687" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="text-black/40 hover:text-black transition-colors duration-200">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+          </a>
+          <a href="mailto:walunjvigxii@gmail.com" aria-label="Email" className="text-black/40 hover:text-black transition-colors duration-200">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+        </div>
         <p className="text-[8px] tracking-[0.5em] text-black uppercase">
           VIGXII Visuals Co. by Vighnesh Walunj © 2026
         </p>
@@ -581,6 +580,27 @@ function CategoryPage({
         >
           Back to Top
         </button>
+        <div className="flex items-center justify-center gap-5 mb-4">
+          <a href="https://www.instagram.com/vigxiivisuals?igsh=OTY0YWVmNjlrbXFj" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-black/40 hover:text-black transition-colors duration-200">
+            <Instagram size={18} strokeWidth={1.75} />
+          </a>
+          <a href="tel:+918591126687" aria-label="Phone" className="text-black/40 hover:text-black transition-colors duration-200">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </a>
+          <a href="https://wa.me/918591126687" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="text-black/40 hover:text-black transition-colors duration-200">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+          </a>
+          <a href="mailto:walunjvigxii@gmail.com" aria-label="Email" className="text-black/40 hover:text-black transition-colors duration-200">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+        </div>
         <p className="text-[8px] tracking-[0.5em] text-black uppercase">
           VIGXII Visuals Co. by Vighnesh Walunj © 2026
         </p>
